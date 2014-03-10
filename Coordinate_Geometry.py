@@ -21,3 +21,6 @@ def distance(x1,y1,x2,y2):
         return("√"+ str(inside_root))
     else:
         return(str(outside_root) + "√"+ str(inside_root))
+
+def midpoint(x1,y1,x2,y2):
+    return (str((x1+x2)/2) + ", " + str((y1+y2)/2))
