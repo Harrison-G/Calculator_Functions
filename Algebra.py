@@ -1,1 +1,1 @@
-#Algebraic Formulas
+#Algebra.py
