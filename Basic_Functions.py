@@ -4,7 +4,6 @@ import math
 
 def power(string):
     myString = string.split('^')
-    print "".join(myString)
     l=len(string.split('^'))
     if l==1:
         return string
