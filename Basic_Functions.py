@@ -4,8 +4,12 @@ import math
 
 def power(string):
     myString = string.split('^')
+    print "".join(myString)
     l=len(string.split('^'))
-    n=pow(float(myString[l-2]),float(myString[l-1]))
-    for q in range(l-2):
-        n=pow(float(myString[l-q-3]),n)
-    return n
+    if l==1:
+        return string
+    else:
+        n=pow(float(myString[l-2]),float(myString[l-1]))
+        for q in range(l-2):
+            n=pow(float(myString[l-q-3]),n)
+        return n
