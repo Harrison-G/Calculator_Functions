@@ -2,6 +2,7 @@
 
 import math
 
+#Calculates exponents in the form of "a^b^c^..."
 def power(string):
     myString = string.split('^')
     l=len(string.split('^'))
@@ -12,3 +13,7 @@ def power(string):
         for q in range(l-2):
             n=pow(float(myString[l-q-3]),n)
         return n
+
+#Evaluates given arithmetic e.g.2+3,2-3,2*3,2/3,2**3
+def evaluate():
+    print(eval(input()))
