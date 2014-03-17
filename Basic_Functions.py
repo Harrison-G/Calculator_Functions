@@ -2,6 +2,16 @@
 
 import math
 
+
+#Command Line Interface
+def commandLine():
+    evalInput = eval(input())
+    if evalInput==None:
+        return "Done."
+    else:
+        return evalInput
+    
+
 #Calculates exponents in the form of "a^b^c^..."
 def power(string):
     myString = string.split('^')
