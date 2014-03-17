@@ -1,0 +1,9 @@
+What types of modes should there be?
+-Basic/General
+-Graph/Table
+-Trigonometry
+-Geometry
+-Matrices
+-Algebra
+-
+
