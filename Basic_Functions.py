@@ -4,8 +4,8 @@ import math
 
 
 #Command Line Interface
-def commandLine():
-    evalInput = eval(input())
+def commandLine(command):
+    evalInput = eval(command)
     if evalInput==None:
         return "Done."
     else:
