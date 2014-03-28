@@ -4,22 +4,18 @@ import math
 
 
 #Command Line Interface
+
 def commandLine(command):
-    evalInput = eval(command)
+    if len(command.split("="))==2:
+        globals()[command.split("=")[0]]=command.split("=")[1]
+        evalInput="Done."
+    else:
+        evalInput = eval(command)
+             
     if evalInput==None:
         return "Done."
     else:
         return evalInput
-    
 
-#Calculates exponents in the form of "a^b^c^..."
-def power(string):
-    myString = string.split('^')
-    l=len(string.split('^'))
-    if l==1:
-        return string
-    else:
-        n=pow(float(myString[l-2]),float(myString[l-1]))
-        for q in range(l-2):
-            n=pow(float(myString[l-q-3]),n)
-        return n
+while True:
+    print(commandLine(input()))
