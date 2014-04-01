@@ -7,7 +7,7 @@ import math
 
 def commandLine(command):
     if len(command.split("="))==2:
-        globals()[command.split("=")[0]]=command.split("=")[1]
+        globals()[command.split("=")[0]]=int(command.split("=")[1])
         evalInput="Done."
     else:
         evalInput = eval(command)
