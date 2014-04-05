@@ -9,3 +9,5 @@ What types of modes should there be?
 
 How should a variable be defined?
 List of parts? {decimal, fraction, root_multiplier, nth_root, root, etc.}
+
+How many places should decimals be rounded to by default?
