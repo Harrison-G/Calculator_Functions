@@ -1,8 +1,6 @@
 #Defines basic mathematical functions.
 
-import math
-import cmath
-import fractions
+import time, numbers, math, cmath, decimal, fractions, random, statistics, itertools, functools, operator
 
 variables = {}
 
