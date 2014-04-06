@@ -1,6 +1,8 @@
 #Defines basic mathematical functions.
 
 import math
+import cmath
+import fractions
 
 
 #Command Line Interface
