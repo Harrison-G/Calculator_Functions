@@ -30,5 +30,8 @@ def commandLine(command):
     else:
         return evalInput
 
+def mode(var,fractionOrDecimal):
+    globals()[var]['mode']=fractionOrDecimal
+
 while True:
     print(commandLine(input()))
