@@ -8,6 +8,6 @@ What types of modes should there be?
 -
 
 Variables are defined by a dictionary of parts.  So far:
-{'decimal':.125,'numerator':1,'denominator':8}
+{'mode':'fraction','decimal':.125,'numerator':1,'denominator':8}
 
 How many places should decimals be rounded to by default?
