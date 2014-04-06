@@ -28,7 +28,6 @@ def defineVariable(expression):
         for i in range(len((expression.split('=')[1]).split('/'))-1):
             last=last/fractions.Fraction((expression.split('=')[1]).split('/')[i+1])
         last=fractions.Fraction(last)
-        #variables[expression.split('=')[0]]={'mode':'fraction','decimal':float(fractions.Fraction(expression.split('=')[1])),'fraction':fractions.Fraction(expression.split('=')[1])}
         variables[expression.split('=')[0]]={'mode':'fraction','decimal':float(last),'fraction':last}
     globals()[expression.split('=')[0]]=variables[expression.split('=')[0]][variables[expression.split('=')[0]]['mode']]
 
