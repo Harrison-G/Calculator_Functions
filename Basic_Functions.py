@@ -10,11 +10,7 @@ variables = {}
 
 def commandLine(command):
     if len(command.split('='))==2: #If defining a variable
-        if len(command.split('/'))==1: #If variable value is a decimal
-            variables[command.split('=')[0]]={'mode':'decimal','decimal':float(fractions.Fraction(command.split('=')[1])),'fraction':fractions.Fraction(command.split('=')[1])}
-        else: #If variable value is a fraction
-            variables[command.split('=')[0]]={'mode':'fraction','decimal':float(fractions.Fraction(command.split('=')[1])),'fraction':fractions.Fraction(command.split('=')[1])}
-        globals()[command.split('=')[0]]=variables[command.split('=')[0]][variables[command.split('=')[0]]['mode']]
+        defineVariable(command)
         evalInput="Done."
     else:
         evalInput = eval(command)
@@ -23,6 +19,13 @@ def commandLine(command):
         return "Done."
     else:
         return evalInput
+
+def defineVariable(expression):
+    if len(expression.split('/'))==1: #If variable value is a decimal
+        variables[expression.split('=')[0]]={'mode':'decimal','decimal':float(fractions.Fraction(expression.split('=')[1])),'fraction':fractions.Fraction(expression.split('=')[1])}
+    else: #If variable value is a fraction
+        variables[expression.split('=')[0]]={'mode':'fraction','decimal':float(fractions.Fraction(expression.split('=')[1])),'fraction':fractions.Fraction(expression.split('=')[1])}
+    globals()[expression.split('=')[0]]=variables[expression.split('=')[0]][variables[expression.split('=')[0]]['mode']]
 
 def mode(var,fractionOrDecimal):
     variables[var]['mode']=fractionOrDecimal
