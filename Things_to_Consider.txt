@@ -11,3 +11,14 @@ Variables are defined by a dictionary of parts.  So far:
 {'mode':'fraction','decimal':.125,'fraction':1/8}
 
 How many places should decimals be rounded to by default?
+
+Important Modules:
+-SymPy
+-IPython
+-Numbers
+-Math
+-Cmath
+-Decimal
+-Fraction
+-Random
+-Statistics
