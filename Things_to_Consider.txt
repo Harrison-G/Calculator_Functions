@@ -7,14 +7,8 @@ What types of modes should there be?
 -Algebra
 -
 
-Variables are defined by a dictionary of parts.  So far:
-{'mode':'fraction','decimal':.125,'fraction':1/8}
-
-How many places should decimals be rounded to by default?
-
-Important Modules:
--SymPy
--IPython
+Important Python Modules:
+-SciPy
 -Numbers
 -Math
 -Cmath
@@ -22,3 +16,10 @@ Important Modules:
 -Fraction
 -Random
 -Statistics
+
+Helpful Tools
+-SciPy —- Open Source, LaTeX Output, Good Documentation
+-Mathematica -- Powerful/Closed Source/Non-Profit, Beautiful Text Input/Output, Excellent Documentation
+-Sage -- Open Source, Some Strange Syntax, LaTeX Output, Excellent Documentation
+-Maxima -- Open Source, LaTeX Output (and Input???), Good Documentation
+-Mathics -- Open Source, LaTeX Output, Bad Documentation
