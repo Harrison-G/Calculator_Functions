@@ -18,8 +18,8 @@ Important Python Modules:
 -Statistics
 
 Helpful Tools
--SciPy —- Open Source, LaTeX Output, Good Documentation
--Mathematica -- Powerful/Closed Source/Non-Profit, Beautiful Text Input/Output, Excellent Documentation
--Sage -- Open Source, Some Strange Syntax, LaTeX Output, Excellent Documentation
--Maxima -- Open Source, LaTeX Output (and Input???), Good Documentation
--Mathics -- Open Source, LaTeX Output, Bad Documentation
+-SciPy —- Open Source, LaTeX Output, Good Documentation, Excellent Graphics
+-Mathematica -- Powerful/Closed Source/Non-Profit, Beautiful Text Input/Output, Excellent Documentation, Excellent Graphics
+-Sage -- Open Source, Some Strange Syntax, LaTeX Output, Excellent Documentation, Bad Graphics
+-Maxima -- Open Source, LaTeX Output (and Input???), Good Documentation, Excellent Graphics
+-Mathics -- Open Source, LaTeX Output, Bad Documentation, Excellent Graphics
