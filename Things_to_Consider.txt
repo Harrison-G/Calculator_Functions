@@ -18,11 +18,11 @@ Important Python Modules:
 -Statistics
 
 Helpful Tools
------------------------------------------------------------------------------------------
----NAME-----------Open Source-----LaTeX I/O----------Documentation-----------Graphics----
-   SciPy          Yes             Output             Good                    Excellent
-   Mathematica    No              No; Beautiful      Excellent               Excellent
-   Sage Math      Yes             Output             Excellent               Bad
-   Maxima         Yes             Output, (Input?)   Good                    Excellent
-   Mathics        Yes             Output             Bad                     Excellent
------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+---NAME-----------Open Source-----LaTeX I/O----------Documentation-----------Graphics-------Contains------------------------------------------
+   SciPy          Yes             Output             Good                    Excellent      SciPy, NumPy, MatPlotLib, IPython, SymPy, pandas
+   Mathematica    No              No; Beautiful      Excellent               Excellent      Wolfram Language
+   Sage Math      Yes             Output             Excellent               Bad            SciPy, Maxima
+   Maxima         Yes             Output, (Input?)   Good                    Excellent      N/A
+   Mathics        Yes             Output             Bad                     Excellent      SciPy
+----------------------------------------------------------------------------------------------------------------------------------------------
